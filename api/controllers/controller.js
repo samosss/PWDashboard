@@ -230,7 +230,7 @@ function curlGrab(thisURL, callback) {
             return( callback(thisData) );
         } else {
             var thisError = {
-                "starusCode": statusCode,
+                "statusCode": statusCode,
                 "headers": headers,
                 "body": body
             };
